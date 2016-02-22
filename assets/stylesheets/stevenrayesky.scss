@@ -37,3 +37,9 @@ header {
 		text-shadow: 1px 1px 1px black;
  	}
  }
+
+ @media all and (max-width: 500px) {
+	.header_link {
+		margin: 0 15px;
+	}
+}

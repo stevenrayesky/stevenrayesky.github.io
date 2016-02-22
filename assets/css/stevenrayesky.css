@@ -27,43 +27,50 @@
   font-family: helvetica, serif;
   text-align: center;
   height: 20%;
-  width: 100%; }
+  width: 100%;
+  overflow: scroll; }
 
 .description_div {
   margin: 10px 0; }
 
 .threegoodthings_bg {
   background-image: url(../../images/threegoodthings_project.png);
-  background-size: cover; }
+  background-size: contain no-repeat; }
 
 .jukebox_bg {
-  background-image: url(../../images/jukebox_project.png);
-  background-size: cover; }
+  background-image: url(../../images/jukebox_project.png); }
 
 .sass_bg {
-  background-image: url(../../images/sass_project.png);
-  background-size: cover; }
+  background-image: url(../../images/sass_project.png); }
 
 .pirate_bg {
-  background-image: url(../../images/pirate_ship_project.png);
-  background-size: cover; }
+  background-image: url(../../images/pirate_ship_project.png); }
 
 .caw_bg {
-  background-image: url(../../images/caw_blog_project.png);
-  background-size: cover; }
+  background-image: url(../../images/caw_blog_project.png); }
 
 .mumblr_bg {
-  background-image: url(../../images/mumblr_blog_project.png);
-  background-size: cover; }
+  background-image: url(../../images/mumblr_blog_project.png); }
 
 .mars_bg {
-  background-image: url(../../images/mars_project.png);
-  background-size: cover; }
+  background-image: url(../../images/mars_project.png); }
 
 .cause_bg {
-  background-image: url(../../images/cause_project.png);
+  background-image: url(../../images/cause_project.png); }
+
+.bg_size {
   background-size: cover; }
 
+@media all and (max-width: 500px) {
+  .project_image {
+    height: 50%;
+    width: 100%; }
+
+  .project_div {
+    height: 250px; }
+
+  .project_description {
+    height: 50%; } }
 header {
   background-image: url(../../images/background.jpg);
   background-size: cover;
@@ -93,5 +100,9 @@ header {
   margin: 0 35px; }
   .header_link a {
     text-shadow: 1px 1px 1px black; }
+
+@media all and (max-width: 500px) {
+  .header_link {
+    margin: 0 15px; } }
 
 /*# sourceMappingURL=stevenrayesky.css.map */
