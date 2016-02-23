@@ -71,6 +71,12 @@
 
   .project_description {
     height: 50%; } }
+.live_span {
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  left: 5px; }
+
 header {
   background-image: url(../../images/background.jpg);
   background-size: cover;
