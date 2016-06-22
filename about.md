@@ -16,8 +16,6 @@ I enrolled at NYCDA Philly where I was immersed in front/back-end development, c
 
 My first love is my beautiful wife Jenna and our two children, Winifred and Theodore. 
 
-Family, coding, reading, writing.
-
 ### Contact me
 
 [stevenrayesky@gmail.com](mailto:stevenrayesky@gmail.com)
