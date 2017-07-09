@@ -4,17 +4,17 @@ title: About
 permalink: /about/
 ---
 
-Hi! I'm Steven Rayesky. What else. 
+This is Steven Rayesky's page.
 
-I am a storyteller from birth, web developer by choice. I spent a number of years in sales and was always seeking a way to scratch that interminable itch: 
+Web developer working in
 
-## The need to create!
+Ruby
 
-By divine favor I stumbled into coding, and found the blend that matched my internal makeup: Logic + Creativity + Problem-solving = Love. 
+PHP
 
-I enrolled at NYCDA Philly where I was immersed in front/back-end development, collaborated on projects, and acquired the skills necessary to be a full-stack developer. 
+Javascript
 
-My first love is my beautiful wife Jenna and our two children, Winifred and Theodore. 
+Wordpress
 
 ### Contact me
 

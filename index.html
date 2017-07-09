@@ -2,30 +2,43 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts. limit:1 %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.content }}
-      </div>
-    </article>
-  {% endfor %}
+<div class="content">
+  <div class="left">
+    <h1 class="home-heading">Steven Rayesky dot com</h1>
+    <h2>Web developer working in</h2>
+    <div>Ruby</div>
+    <div>PHP</div>
+    <div>Javascript</div>
+    <div>Wordpress</div>
+    <h2>Learning</h2>
+    <div>React via <a href="https://reacttraining.com">reacttraining.com</a></div>
+    <h2>Favorite <a href="https://www.goodreads.com/user/show/8224355-steven-rayesky">Books</a></h2>
+    <div><a href="https://www.goodreads.com/book/show/394535.Blood_Meridian_or_the_Evening_Redness_in_the_West">Blood Meridian</a></div>
+    <div><a href="https://www.goodreads.com/book/show/168668.Catch_22">Catch-22</a></div>
+    <div><a href="https://www.goodreads.com/book/show/153747.Moby_Dick_or_The_Whale">Moby Dick</a></div>
+    <h2>Playing</h2>
+    <div>The Witness</div>
+    <h2>Contact me</h2>
+    <div>
+      <a href="mailto:stevenrayesky@gmail.com">stevenrayesky@gmail.com</a>
+    </div>
+    <div>
+      <a href="{{ site.url }}/download/Resume.docx">Resume</a>
+    </div>
 </div>
-
-<div class="posts">
-  {% for post in site.posts offset:1 %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+  <div class="right">
+    <img src="{{ site.url }}/images/profile.png" alt="" class="profile">
+    <h2>Projects</h2>
+    <h3>
+      <a href="http://threegoodthings.site/">Three Good Things</a>
+    </h3>
+    <ul>
+      <li>Journal three good things each day, an exercise proven to increase happiness.</li>
+    </ul>
+    <h2>Talks</h2>
+    <ul>
+      <li>NYCDA Lunch & Learn - <i>Wordpress Primer</i> </li>
+    </ul>
+  </div>
+  
 </div>
