@@ -1,0 +1,45 @@
+/*
+Error: Invalid CSS after "@import "reset"": expected "{", was ";"
+        on line 3 of style.scss
+
+1: ---
+2: ---
+3: @import "reset";
+4: @import "variables";
+5: @import "stevenrayesky";
+6: // Syntax highlighting @import is at the bottom of this file
+7: 
+8: /**************\/
+
+Backtrace:
+style.scss:3
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/scss/parser.rb:1207:in `expected'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/scss/parser.rb:1137:in `expected'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/scss/parser.rb:1132:in `tok!'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/scss/parser.rb:665:in `block'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/scss/parser.rb:658:in `ruleset'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/scss/parser.rb:684:in `block_child'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/scss/parser.rb:674:in `block_contents'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/scss/parser.rb:125:in `stylesheet'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/scss/parser.rb:41:in `parse'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/engine.rb:406:in `_to_tree'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:294:in `watch'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/plugin.rb:109:in `method_missing'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/exec/base.rb:52:in `parse'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/lib/sass/exec/base.rb:19:in `parse!'
+/Users/srayesky/.rvm/gems/ruby-2.3.0@global/gems/sass-3.4.24/bin/sass:13:in `<top (required)>'
+/Users/srayesky/.rvm/gems/ruby-2.3.0/bin/sass:23:in `load'
+/Users/srayesky/.rvm/gems/ruby-2.3.0/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"@import \"reset\"\": expected \"{\", was \";\"\A         on line 3 of style.scss\A \A 1: ---\A 2: ---\A 3: @import \"reset\";\A 4: @import \"variables\";\A 5: @import \"stevenrayesky\";\A 6: // Syntax highlighting @import is at the bottom of this file\A 7: \A 8: /**************/"; }
